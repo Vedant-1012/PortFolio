@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Get the current URL path
+      var path = window.location.pathname;
+      // Get the base path from your vite.config.js (e.g., /PortFolio/)
+      var basePath = '/PortFolio/'; // Make sure this matches your vite.config.js base
+
+      // Construct the new URL by appending the path to the base URL
+      var newUrl = basePath + window.location.hash;
+
+      // Redirect to the new URL
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
