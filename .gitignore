@@ -3,6 +3,7 @@ node_modules/
 .pnpm-store/
 
 # Build outputs
+dist/
 build/
 
 # Environment variables
@@ -70,6 +71,7 @@ temp/
 
 # Nuxt.js build / generate output
 .nuxt
+dist
 
 # Gatsby files
 .cache/
